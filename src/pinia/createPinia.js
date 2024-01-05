@@ -2,7 +2,7 @@ import { piniaSymbol } from "./piniaSymbol"
 
 export function createPinia() {
     const piniaStore = {
-        _store: new Map(), // 存放所有store对象
+        _stores: new Map(), // 存放所有store对象
 
         state: {}, // 初始化一个state对象，后续会完成计算属性和对象的使用
 
